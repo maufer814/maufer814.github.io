@@ -1,0 +1,64 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Estilos do rodapé */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto; 
+}
+
+
+.myBackground {
+    background-color: red;
+  }
+
+  .myContainer {
+    background-color: rgb(188, 190, 192);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+  }
+
+  .alinhaJustificado{
+    text-align: justify;
+  }
+
+  .myContainerCarrosel{
+    margin: 0 auto;
+    width: 55%;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+.link:link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.logo{
+  width: 300px;
+  height: 300px;
+}
+
+
+  @media (min-widht: 320px) and (max-widht: 480px){
+    .myContainerCarrosel{
+        width: 80%;
+    }
+
+  }
